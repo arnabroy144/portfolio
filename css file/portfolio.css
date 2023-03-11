@@ -1,0 +1,79 @@
+body{
+    background-color: #1d291b;
+}
+
+
+header div img{
+    object-fit: cover;
+    height: 16rem;
+    width: 16rem;
+    border-radius: 50%;
+    margin: 4rem;
+    border: .4rem solid #1d291b;
+}
+header div img :hover{
+    border: 1rem solid #05110D;
+}
+
+div h1{
+    font-size: 3rem;
+    color: black;
+    margin-bottom: 0rem;
+}
+
+header nav ul li a{
+    display: block;
+    color: rgb(229, 240, 232);
+    font-size: 2rem ;
+    padding: .5rem;
+    margin: 1rem;
+    background: #1d291b;
+    border-radius: 1rem;
+    text-decoration: none;
+}
+header nav ul{
+    list-style: none;
+    padding: 1rem;
+}
+header nav{
+    width: 90%;
+    padding: 1rem;
+}
+
+header nav ul li :hover{
+    background-color:#05110D;
+}
+header{
+    position:absolute;
+    top: 0; left: 0;
+    background-color:#2B4128;
+    height: 150%;
+    width: 25rem;
+    text-align: center;
+}
+/*header end */
+section{
+    padding: 2rem;
+    padding-left:27rem;
+    font-size: 2rem;
+}
+section a{
+    display: inline-block;
+    color: #E5F0E8;
+    font-size: 2rem ;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background: #2B4128;
+    border-radius: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+section a:hover{
+    background-color:#05110D;
+}
+/*about me section */
+body section h1{
+    text-align: center;
+    color:#E5F0E8;
+    margin-top: 0rem;
+}
