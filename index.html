@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,36 +6,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" type="text/css" href="css file\portfolio.css">
+    <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+    <style>
+        /* Add CSS styles for mobile responsiveness here */
+        /* For example, you can add styles to make the navigation menu responsive */
+        @media (max-width: 600px) {
+            .navbar ul {
+                flex-direction: column;
+                text-align: center;
+            }
+            .navbar li {
+                margin-bottom: 10px;
+            }
+        }
+/* additional.......................................... */
+
+/* additional ........end.............................. */
+
+    </style>
 </head>
 <body>
     <header>
-
         <div>
-            <a href="About_Me.html">
-                <img src="\image.portfolio\arn.jpeg"height = 100 alt="PROFILE PICTURE">
-                </a>        
-                <h1>ARNAB ROY</h1> 
+            <a href="images/arn.jpeg">
+                <img src="images/arn.jpeg" height="100" alt="PROFILE PICTURE">
+            </a>
+            <h1>ARNAB ROY</h1>
             <br>
         </div>
-
-        <nav class="navbar"> 
+        <nav class="navbar">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="Education.html">Education</a></li>
-                <li><a href="Experience.html">Experience</a></li>
-                <li><a href="Contact.html">Contact</a></li>            
+                <li><a href="education.html">Education</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-
     </header>
-    <!--about section-->
+    <!-- about section -->
     <section>
         <p> I am an experienced electrical engineer with a Bachelor's degree in Electrical Engineering and over 5 years of experience in the construction and marketing industries. I have a strong foundation in technical knowledge and have demonstrated expertise in project management, problem-solving, and team leadership. After exploring various industries, I have decided to pursue a career in IT, leveraging my experience in project management and my passion for technology. I am eager to learn new skills and am excited about the potential for growth in this dynamic field.</p>
-        <a href="index.html">About Me</a>
-        <a href="about.html">Download Resume</a>
-    </section>
+        <a href="document/Arnab_Roy_CV.pdf" target="_blank">View Resume</a>
+        <a href="document/Arnab_Roy_CV.pdf" download="Arnab_Roy_CV.pdf">Download Resume</a>
 
-    
+    </section>
 </body>
 </html>
